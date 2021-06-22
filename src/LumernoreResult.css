@@ -1,0 +1,41 @@
+.mainContainer {
+    flex:1;
+    height:100vh;
+    background-color: #d2d2d2;
+}
+.box {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #f6f6f6;
+    border-style: solid;
+    box-shadow: 5px 5px 4px #888888;
+}
+
+p {
+    color: white;
+}
+
+.sumTxt {
+   transform:rotate(90deg);
+   color:white;
+   font-weight:'700';
+   position:absolute
+}
+.dropdown div {
+    padding: 5px;
+}
+.dropdown span {
+    font-weight: 700;
+}
+
+.dropdown span:hover {
+}
+.dropdown > div:hover {
+    background-color: #3f51b5;
+    
+    color: white;
+}
+
+.ant-popover-inner-content {
+    padding: 0;
+}
